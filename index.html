@@ -7,7 +7,7 @@
 <body class="container">
 <style>
     body {
-        font: 300 18px/1.5 Roboto, Arial, sans-serif;
+        font: 300 1.2em/1.5 Roboto, Arial, sans-serif;
         color: #595959;
     }
     .container {
@@ -18,9 +18,29 @@
     .section {
         padding: 3rem 1.5rem;
     }
+    nav.links ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+    nav.links ul li {
+        font-size: 0.8em;
+    }
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid;
+    }
 </style>
 <section class="section">
     <p>Hi, I'm Anton Lebedev, if&nbsp;you want to&nbsp;get in&nbsp;touch with&nbsp;me, <a href="mailto:hey@antonlebedev.net" title="hey@antonlebedev.net">email&nbsp;me</a>.</p>
+    <nav class="links">
+        <ul>
+            <li>
+                <a rel="me" href="https://mastodon.online/@lebster">mastodon</a>
+            </li>
+        </ul>
+    </nav>
 </section>
 </body>
 </html>
